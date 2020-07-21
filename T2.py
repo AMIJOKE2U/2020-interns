@@ -14,8 +14,6 @@ for i in data['rates']:
         fetch_rate1[date.day]=data['rates'][str(i)]['INR']
         fetch_rate2[date.day]=data['rates'][str(i)]['GBP']
         
-#plot_graph1=sorted(fetch_rate1.items())
-#plot_graph2=sorted(fetch_rate2.items())
 INR_plot=sorted(fetch_rate1.items())
 GBP_plot=sorted(fetch_rate2.items())
 date,rates1=zip(*INR_plot)
