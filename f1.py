@@ -40,7 +40,7 @@ plt.plot(dates,rates1,label='Current INR Rate-'+str(max(rates1)))
 plt.plot(dates,rates2,label='Current GBP Rate-'+str(max(rates2)))
 
 plt.xlabel('Dates From '+new_s_date+" to "+new_e_date)
-plt.ylabel('Rates of Jan 2019')
+plt.ylabel('Rates From '+new_s_date+" to "+new_e_date)
 plt.xticks(np.arange(32),rotation=90)
 plt.title('Exchange rate of INR and GBP against EUR')
 plt.legend()
