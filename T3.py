@@ -1,7 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 from datetime import datetime
-import collections
+#import collections
 import numpy as np
 
 with open('data.json') as f:
