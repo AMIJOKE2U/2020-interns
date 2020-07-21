@@ -6,7 +6,6 @@ import numpy as np
 
 with open('data.json') as f:
     data=json.load(f)
-
 fetch_rate=dict()
 for i in data['rates']:
     date=datetime.strptime(i,'%Y-%m-%d').date()
